@@ -1,3 +1,12 @@
+/*
+	Verificar que los carácteres de la secuencia aparecen en el array original.
+	
+	Punteros al comienzo de cada lista.
+	Se comprueba el valor de la secuencia y dependiendo de si se encuentra o no se incrementa un puntero o ambos.
+
+	O(n) Time | O(1) Space where n is de length of the array.
+*/
+
 using System;
 using System.Collections.Generic;
 

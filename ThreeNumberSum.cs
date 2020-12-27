@@ -1,3 +1,13 @@
+/*
+	Encontrar tres números que sumen el valor objetivo.
+
+	Ordenamos el array para asi poder descartar ciertos valores durante el proceso de suma.
+	Se coge un valor del array y se va probrando con dos indices: por delantes y por detrás para ver si suma.
+	Dependiendo del valor de la suma se incrementa el índice de delante o el de atrás.
+
+	O(n^2) Time | O(n) Space where n is de length of the array.
+*/
+
 using System;
 using System.Collections.Generic;
 

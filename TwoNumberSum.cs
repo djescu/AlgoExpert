@@ -1,3 +1,12 @@
+/*
+	Encontrar dos números que sumen el valor objetivo.
+
+	Doble bucle para comparar un valor con el resto.
+	Si la suma da el valor objetivo fin. Si no se incrementan los indices de búsqueda.
+
+	O(n) Time | O(1) Space where n is de length of the array.
+*/
+
 using System;
 
 public class Program {
