@@ -12,7 +12,7 @@ using System.Collections.Generic;
 
 public class Program {
 	public static bool IsValidSubsequence(List<int> array, List<int> sequence) {
-		// Write your code here.
+
 		int arrayIndex = 0;
 		int sequenceIndex = 0;
 		while ((arrayIndex < array.Count) && (sequenceIndex < sequence.Count)) {

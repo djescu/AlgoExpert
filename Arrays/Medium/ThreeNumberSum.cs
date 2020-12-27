@@ -13,7 +13,7 @@ using System.Collections.Generic;
 
 public class Program {
 	public static List<int[]> ThreeNumberSum(int[] array, int targetSum) {
-		// Write your code here.
+
 		int index = 0;
 		List<int[]> result = new List<int[]>();
 		
